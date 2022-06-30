@@ -13,4 +13,8 @@ export class AppController {
   getProduct(): any[] {
     return this.appService.getProducts();
   }
+  @Get()
+  getTypeProducts(): any[] {
+    return this.appService.getTypeProducts();
+  }
 }
